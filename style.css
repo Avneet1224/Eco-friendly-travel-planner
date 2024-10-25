@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #12723a;
+    color: rgb(248, 245, 245);
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin:0;
+    font-size: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+  }
+  
+  .section h2 {
+    color: #1eb45d;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+  }
+  
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .service-cards {
+    display: flex;
+    gap: 25px;
+    height: 30%;
+  }
+
+  .img2md{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #bfddcc;
+    color: #020c06;
+    padding: 15px;
+    border: 6px solid #338c58;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 140%;
+    text-align: center;
+  }
+  
+  .article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .article {
+    background: rgb(202, 237, 221);
+    padding: 15px;
+    border: 5px solid #2ecc71;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .tips-list {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  footer {
+    text-align: center;
+    background: #2ecc71;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .mainctr{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .leftctr{
+    
+    min-width: 50vw;
+  }
+  .righctr{
+    background-color: aqua;
+  }
+  .lowerimg{
+    
+  }
+  .lowimg2{
+    min: width 50vw; ;
+  }
